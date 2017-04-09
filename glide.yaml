@@ -1,0 +1,8 @@
+package: .
+import:
+- package: github.com/eclipse/paho.mqtt.golang
+  subpackages:
+  - packets
+- package: golang.org/x/net
+  subpackages:
+  - websocket
